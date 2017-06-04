@@ -1,0 +1,237 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on :  April 26, 2016, 2:39:34 PM
+    Author     : Deepu
+*/
+
+body {
+    min-height: 100%;
+    margin:0 auto;
+     background: #006600;;
+    clear: both;
+}
+/* body of the books table*/
+table, th, td{
+
+    border:1px solid white;
+    padding: 1em;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+tr:nth-child(even) {
+    background-color: #D3D3CF;
+}
+tr:nth-child(odd) {
+    background-color: #EAEAE6;
+}
+/* style of the head of the books table*/
+th{
+  background:black;
+  text-align: center;
+    color:white;
+    margin-top: 10px;
+    border-color:white;
+}
+
+button{
+
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+td{
+    text-align: center;
+
+}
+
+/*td img{
+    width : 50px;
+    height:50px;
+}*/
+
+#back_to_page{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+#submit_button {
+    /* To position the buttons to the same position of the text fields */
+    /* same size as the label elements */
+    margin-left: 120px;
+    background-color: #475D9F;
+    color: white;
+    border-color: #475D9F;
+    border-radius: 0.5em;
+}
+/* header color*/
+nav{
+    background-color: #006600;
+    margin:0;
+    overflow: hidden;
+    height:120px;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+
+}
+
+.count{
+    color:blue;
+}
+
+
+.error {
+    width: 100%;
+    float: left;
+   /* margin: 30px 0;*/
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+/* header.jsp ********************************/
+#header{
+    background: #006600;
+    width: 100%;
+        height: 20dp;
+}
+
+nav#header_menu ul li a {/*color: black; */
+
+    display: block;
+    line-height: 2em;
+ background: #006600;
+    padding: 1em 1em;
+    text-decoration: none;
+color: white;}
+
+
+
+
+nav#menu {
+    color: black;
+    background-color: #006600;
+    font-weight: bold;
+    float:left;
+    display: block;
+    line-height: 3em;
+    margin: 20px ;
+    margin-bottom: 70px;
+    border : 1px solid black;
+    
+    text-decoration: none;
+    width:150px;
+    
+
+}
+
+
+
+nav#header_menu ul li{
+    display:inline-block;
+    list-style-type: none;
+    background:#006600;
+    color:white;
+    
+}
+
+#heading{
+      font-family: "Times New Roman", Times, serif;
+      font-style: italic;
+}
+
+nav .left{
+    float:left;
+    padding: 1em 1em;
+    font-weight: bold;
+    font-size:30px;
+    
+
+}
+
+nav .right{
+    float:right;
+    margin-right:2em;
+    font-family: "Times New Roman", Times, serif;
+      font-style: italic;
+      font-size: 20px;
+
+}
+
+
+
+/* footer.jsp *******************************/
+
+.copyright{
+    position:fixed;
+    bottom:0;
+    margin-top: 100px;;
+    width: 100%;
+    padding: 20px 20px;
+    background: #006600;
+    text-align:center;
+    color:white;
+}
+
+/* about.jsp ********************************/
+
+#how{
+    text-align: left;
+    margin: 0 auto;
+    
+    margin-bottom: 100px;
+    background:   #e9ecf0;
+    color:black;
+    margin-top: 100px;
+    width:70%;
+    padding: 20px ; 
+    border : 1px black solid;
+}
+
+/* aboutl.jsp *********************************/
+
+nav#menu ul li{
+    display:block;
+    list-style-type: none;
+    border-bottom: 1px solid black;
+    text-align: left;
+    padding-left: 1em;
+    background: #006600;
+}
+
+nav#menu ul li a {
+
+    color: black;
+    text-align: left;
+
+    display: block;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+P2 {
+font-size: large;
+font-family: helvectia, geneva, arial, sun-sans, sans serif;
+font-style: italic;
+color: red;
+font-family: "Times New Roman", Times, serif;
+}
+h3{
+     font-family: "Times New Roman", Times, serif;
+      font-style: italic;
+}
